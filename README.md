@@ -14,3 +14,16 @@ Il gioco termina quando esaurisci i tentativi.
 
 Per riavviare il gioco ricarica la pagina.
 
+## Stack
+
+- HTML
+- CSS
+- JavaScript
+- Tailwindcss
+- NPM
+
+## Licenza
+
+[AGPL 3.0 or later][license]
+
+[license]: ./LICENSE
