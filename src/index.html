@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      content="width=device-width
+                initial-scale=1.0"
+      name="viewport"
+    />
+    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+    <link href="https://rsms.me/inter/inter.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <title>Indovina il numero</title>
+  </head>
+
+  <body class="bg-slate-200">
+    <header>
+      <div class="py-20 px-6 text-center text-gray-800">
+        <h1 class="mt-0 mb-6 text-5xl font-bold">Indovina il numero</h1>
+        <h3 class="mb-8 text-3xl font-bold">Tra 1 e 20</h3>
+      </div>
+    </header>
+
+    <main>
+      <div class="grid grid-cols-2 place-items-center gap-10 text-center">
+        <div>
+          <h2 class="text-4xl font-medium leading-tight text-gray-800">
+            🥇 Punteggio
+            <span
+              class="score inline-block whitespace-nowrap rounded bg-blue-600 py-1.5 px-2.5 align-baseline font-bold leading-none text-white"
+              id="score"
+            >
+              0
+            </span>
+          </h2>
+        </div>
+        <div>
+          <h2 class="text-4xl font-medium leading-tight text-gray-800">
+            ❤️‍🩹 Tentativi
+            <span
+              class="inline-block whitespace-nowrap rounded bg-blue-600 py-1.5 px-2.5 align-baseline font-bold leading-none text-white"
+              id="attempts"
+            >
+              20
+            </span>
+          </h2>
+        </div>
+        <div class="col-span-2">
+          <h2 class="text-4xl font-medium leading-tight text-gray-800">
+            <span
+              class="inline-block whitespace-nowrap rounded bg-blue-600 py-1.5 px-2.5 align-baseline font-bold leading-none text-white"
+              id="message"
+            >
+              Inizia a giocare...
+            </span>
+          </h2>
+        </div>
+        <div class="place-self-end">
+          <input
+            class="form-control m-0 block w-full rounded border-2 border-blue-600 bg-white bg-clip-padding px-6 py-2 text-xs font-medium text-blue-600 transition duration-150 ease-in-out focus:border-blue-600 focus:bg-white focus:text-gray-600 focus:outline-none disabled:bg-black disabled:bg-opacity-5"
+            id="number"
+            placeholder="Inserisci un numero"
+            type="text"
+          />
+        </div>
+        <div class="inline-flex place-self-start" role="group">
+          <button
+            class="rounded-l border-2 border-blue-600 px-6 py-2 text-xs font-medium uppercase leading-tight text-blue-600 transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 disabled:bg-black disabled:bg-opacity-5"
+            id="check"
+            type="button"
+          >
+            Prova
+          </button>
+          <button
+            class="border-t-2 border-b-2 border-blue-600 px-6 py-2 text-xs font-medium uppercase leading-tight text-blue-600 transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 disabled:bg-black disabled:bg-opacity-5"
+            id="help"
+            type="button"
+          >
+            Aiuto
+          </button>
+          <button
+            class="rounded-r border-2 border-blue-600 px-6 py-2 text-xs font-medium uppercase leading-tight text-blue-600 transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 disabled:bg-black disabled:bg-opacity-5"
+            id="restart"
+            type="button"
+          >
+            Ricomincia
+          </button>
+        </div>
+      </div>
+    </main>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
