@@ -1,0 +1,8 @@
+{
+  "plugins": [
+    "prettier-plugin-tailwindcss",
+    "prettier-plugin-organize-attributes"
+  ],
+  "pluginSearchDirs": ["./node_modules"],
+  "attributeSort": "ASC"
+}

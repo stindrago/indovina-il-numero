@@ -1,0 +1,21 @@
+{
+  "author": "Formitega",
+  "description": "Indovina il numero passando in input un intero.",
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "prettier-plugin-organize-attributes": "^0.0.5",
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "tailwindcss": "^3.1.8"
+  },
+  "keywords": [],
+  "license": "AGPL-3.0-or-later",
+  "name": "indovina-il-numero",
+  "repository": {
+    "type": "git",
+    "url": "git@git.formitega.com:formitega/indovina-il-numero.git"
+  },
+  "scripts": {
+    "watch": "tailwindcss -i src/assets/css/app.css -o src/assets/css/style.css --watch"
+  },
+  "version": "1.0.0"
+}
