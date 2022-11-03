@@ -1,5 +1,5 @@
 {
-  "author": "Formitega",
+  "author": "Costin Dragoi",
   "description": "Indovina il numero passando in input un intero.",
   "devDependencies": {
     "prettier": "^2.7.1",
@@ -12,7 +12,7 @@
   "name": "indovina-il-numero",
   "repository": {
     "type": "git",
-    "url": "git@git.formitega.com:formitega/indovina-il-numero.git"
+    "url": "git@git.dragoi.me:costin/indovina-il-numero.git"
   },
   "scripts": {
     "watch": "tailwindcss -i src/assets/css/app.css -o src/assets/css/style.css --watch"
